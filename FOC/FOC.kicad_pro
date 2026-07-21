@@ -383,7 +383,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -416,13 +416,25 @@
         "uuid": "2261ceac-c617-4ea0-91b8-4591d1c5dbde"
       }
     ],
-    "used_designators": "J1-2,Y1,D1,U1-4",
+    "used_designators": "Y1,U1-4,SW1-2,R1-4,#PWR1-32,FB1,D1-4,C1-10,J1-2",
     "variants": []
   },
   "sheets": [
     [
       "2261ceac-c617-4ea0-91b8-4591d1c5dbde",
       "Root"
+    ],
+    [
+      "42af65ae-5dc8-49b4-a24c-ae1c62543696",
+      "MCU"
+    ],
+    [
+      "cae31f35-63ed-4b28-a69e-428e0122599b",
+      "power sheet"
+    ],
+    [
+      "ec4cada7-f9ca-4219-b377-378758d32e48",
+      "drive sheet"
     ]
   ],
   "text_variables": {},
