@@ -4316,10 +4316,6 @@
 		(uuid "5320d897-c68d-4cc7-93bc-b2aab1702297")
 	)
 	(no_connect
-		(at 146.05 143.51)
-		(uuid "679a9ee6-c749-43cc-98d3-6e06d5a1c9e2")
-	)
-	(no_connect
 		(at 189.23 101.6)
 		(uuid "68bf03e3-f262-41a9-9ba1-ff86c230f3cc")
 	)
@@ -4636,6 +4632,16 @@
 			(type default)
 		)
 		(uuid "41782e8c-846a-4164-b4f4-5d67b6b2ee70")
+	)
+	(wire
+		(pts
+			(xy 146.05 143.51) (xy 146.05 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4249d3df-1cc9-40a3-aca4-c1a8bc06f440")
 	)
 	(wire
 		(pts
@@ -11168,6 +11174,84 @@
 			(project "FOC"
 				(path "/2261ceac-c617-4ea0-91b8-4591d1c5dbde/42af65ae-5dc8-49b4-a24c-ae1c62543696"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb58342e-5396-44a3-b2b9-775c2ddf2c34")
+		(property "Reference" "#PWR075"
+			(at 146.05 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55b00427-1fc1-45fb-93a6-38203864df2e")
+		)
+		(instances
+			(project "FOC"
+				(path "/2261ceac-c617-4ea0-91b8-4591d1c5dbde/42af65ae-5dc8-49b4-a24c-ae1c62543696"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
