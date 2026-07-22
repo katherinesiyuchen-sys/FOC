@@ -18564,6 +18564,18 @@
 		(layer "Edge.Cuts")
 		(uuid "3cb0ae25-9f1b-4680-809d-681597446b73")
 	)
+	(gr_text "Servo Controller \nMade by Katherine Chen <3\n"
+		(at 105.6 41.4 0)
+		(layer "B.SilkS")
+		(uuid "30ad4a27-2cc4-4105-b15d-e037b4141bfe")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.09)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 116.66 55.995)
 		(end 116.64 56.015)
