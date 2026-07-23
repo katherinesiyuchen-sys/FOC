@@ -539,7 +539,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../../foc-gerber/",
+      "plot": "../../foc-gerber/foc-gerber-1/",
       "specctra_dsn": "",
       "vrml": ""
     },
